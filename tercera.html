@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página con Tabla de Videojuegos</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #28a745, #218838);
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 3rem;
+      }
+      p {
+        margin: 20px 0;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #28a745;
+        background-color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      a:hover {
+        background-color: #f1f3f5;
+      }
+      table {
+        margin-top: 40px;
+        border-collapse: collapse;
+        width: 80%;
+        max-width: 800px;
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid #ddd;
+      }
+      th {
+        background-color: #218838;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabla de Videojuegos</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Juego</th>
+          <th>Género</th>
+          <th>Plataforma</th>
+          <th>Año de Lanzamiento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Legend of Zelda: Breath of the Wild</td>
+          <td>Aventura, Mundo Abierto</td>
+          <td>Switch</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td>Red Dead Redemption 2</td>
+          <td>Aventura, Acción</td>
+          <td>PS4, Xbox One, PC</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>The Witcher 3: Wild Hunt</td>
+          <td>Aventura, RPG</td>
+          <td>PS4, Xbox One, Switch, PC</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Fortnite</td>
+          <td>Battle Royale</td>
+          <td>PS4, Xbox One, Switch, PC</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td>Among Us</td>
+          <td>Multijugador, Party</td>
+          <td>PC, Mobile, Switch</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>Super Mario Odyssey</td>
+          <td>Aventura, Plataforma</td>
+          <td>Switch</td>
+          <td>2017</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="secundaria.html">Volver a la Página Secundaria</a>
+  </body>
+</html>
